@@ -12,7 +12,7 @@
 	<!-- Link favicon-->
 	<link rel="shortcut icon" type="image/x-icon"
 		href="https://canvascctb.s3.ca-central-1.amazonaws.com/account_1/attachments/95/CCTB_favicon.ico" />
-
+	<script src="js/projects.js"></script>
 </head>
 
 <body>
@@ -125,9 +125,7 @@
 							</h6>
 
 							<p>
-								xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxxx xxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxxx xxxx
-								xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxxx xxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxxx
-
+								The let keyword in JavaScript is used to declare variables that are block-scoped. This means that a variable declared with let is only accessible within the block, statement, or expression where it is defined, such as within a function, loop, or conditional statement.
 							</p>
 
 							<div class="border-start border-primary border-3 py-1 px-3 my-5">
@@ -142,8 +140,25 @@
 								Aug 20, 2024 &ndash; short answer questions.
 							</h6>
 							<p>
-								xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxxx xxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxxx xxxx
-								xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxxx xxxx xxxxxxxxxxxxxxxxx xxxxxxxx xxxxxxxxxxx
+								In JavaScript, functions can be defined in several ways:
+							</p>
+							<p>1. Function Declaration
+								This is the standard way to define a function using the function keyword. A function declaration creates a function with a specified name and can be invoked anywhere in the code, even before the declaration, due to hoisting.
+							</p>
+							<p>									2. Function Expression
+								A function expression defines a function inside an expression, typically by assigning it to a variable. The function can be anonymous or named, and unlike a function declaration, it is not hoisted, meaning it cannot be called before it is defined.
+							</p>
+							<p>
+								3. Arrow Function Expression
+								Introduced in ES6, arrow functions provide a more concise syntax for function expressions. They differ from regular functions in that they do not have their own this context, making them particularly useful in situations where you want to preserve the this context from the surrounding code. Arrow functions are often used for shorter, more concise functions.
+							</p>
+							<p>
+								4. Immediately Invoked Function Expression (IIFE)
+								An IIFE is a function that is defined and executed immediately. It's commonly used to create a local scope and avoid polluting the global scope. This pattern is particularly useful in scenarios where you need to run a function once and don't need to keep the function accessible afterward.
+							</p>
+							<p>
+								5. Function Constructor
+								Functions can also be defined using the Function constructor, which takes a series of string arguments as the function's parameters and body. This method is less commonly used due to potential security and performance issues.	
 							</p>
 
 							<div class="mt-5">
@@ -185,7 +200,7 @@
 						<a href="#" class="w-25 p-2 shadow-md rounded text-center text-decoration-none">
 							<img class="img-fluid rounded w-100" src="images/project1.jpg" alt="...">
 							<h3 class="h6 my-3 w-100">
-								<span class="text-dark">Project 1</span>
+								<span id="proj1" class="text-dark">Project 1</span>
 							</h3>
 						</a>
 					</div>
@@ -194,7 +209,7 @@
 						<a href="#" class="w-25 p-2 shadow-md rounded text-center text-decoration-none">
 							<img class="img-fluid rounded w-100" src="images/project2.jpg" alt="...">
 							<h3 class="h6 my-3 w-100">
-								<span class="text-dark">Project 2</span>
+								<span id="proj2" class="text-dark">Project 2</span>
 							</h3>
 						</a>
 					</div>
@@ -203,7 +218,7 @@
 						<a href="#" class="w-25 p-2 shadow-md rounded text-center text-decoration-none">
 							<img class="img-fluid rounded w-100" src="images/project3.jpg" alt="...">
 							<h3 class="h6 my-3 w-100">
-								<span class="text-dark">Project 3</span>
+								<span id="proj3" class="text-dark">Project 3</span>
 							</h3>
 						</a>
 					</div>
@@ -212,7 +227,7 @@
 						<a href="#" class="w-25 p-2 shadow-md rounded text-center text-decoration-none">
 							<img class="img-fluid rounded w-100" src="images/project4.jpg" alt="...">
 							<h3 class="h6 my-3 w-100">
-								<span class="text-dark">Project 4</span>
+								<span id="proj4" class="text-dark">Project 4</span>
 							</h3>
 						</a>
 					</div>
@@ -221,7 +236,7 @@
 						<a href="#" class="w-25 p-2 shadow-md rounded text-center text-decoration-none">
 							<img class="img-fluid rounded w-100" src="images/project5.jpg" alt="...">
 							<h3 class="h6 my-3 w-100">
-								<span class="text-dark">Project 5</span>
+								<span id="proj5" class="text-dark">Project 5</span>
 							</h3>
 						</a>
 					</div>
